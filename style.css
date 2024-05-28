@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Light.ttf)
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Poppins;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.img {
+    height: auto;
+    width: 200px; 
+    margin-top: 150px;
+    margin-bottom: 40px;   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font: #282C52
+}
+
+input {
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #E9EBFF;
+    color: #6b72b6;
+    width: 360px;
+    height: auto;
+}
+
+.btn {
+    border: none;
+    width: 395px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #0116CB;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Poppins;
+    color: white;
+
+}
+
+input::placeholder {
+    color: #6b72b6;
+}
+
+input:focus-visible {
+    outline:#0116CB;
+    outline: 1px solid;
+}
+
+.btn:hover {
+    background-color: #0115cb90;
+    cursor: pointer;
+}
